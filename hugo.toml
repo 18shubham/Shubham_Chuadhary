@@ -1,0 +1,31 @@
+baseURL = "https://github.com/18shubham"
+languageCode = 'en-us'
+title = 'Shubham | DevOps & Cloud'
+theme = "PaperMod"
+
+[params]
+    defaultTheme = "dark"
+    showCodeCopyButtons = true
+    displayFullContent = false
+    
+    [params.homeInfoParams]
+        Title = "Hi, I'm Shubham Chaudhary 👋"
+        Content = """
+        Cloud & Infrastructure Engineer with 5+ years of experience supporting enterprise systems for global brands including JPMC, Hilton, Marriott, and Rosewood. Skilled in cloud infrastructure, automation, and DevOps technologies such as AWS, Docker, Kubernetes, Terraform, and Ansible. Passionate about building reliable, scalable systems, improving operational efficiency, and solving complex infrastructure challenges."""
+
+    [[params.socialIcons]]
+        name = "github"
+        url = " https://github.com/18shubham"
+    [[params.socialIcons]]
+        name = "linkedin"
+        url = "https://www.linkedin.com/in/shubham-chaudhary1/"
+
+[menu]
+    [[menu.main]]
+        name = "Project"
+        url = "https://github.com/18shubham/linux-System-Health-Monitor"
+        weight = 10
+    [[menu.main]]
+        name = "Resume"
+        url = "/resume.pdf"
+        weight = 20
