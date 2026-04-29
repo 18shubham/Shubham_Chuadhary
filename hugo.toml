@@ -26,6 +26,6 @@ theme = "PaperMod"
         url = "https://github.com/18shubham/linux-System-Health-Monitor"
         weight = 10
     [[menu.main]]
-        name = "Resume"
+        name = "resume"
         url = "/resume.pdf"
         weight = 20
